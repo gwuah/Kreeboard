@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: 0px -90px;
+}
+
+#body-container {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8)
+}
+
+#date-time {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    color: white;
+}
+
+#curr-time{
+    font-family: 'Scope One', serif;
+}
+
+#curr-date {
+    display: inline-block;
+    border-bottom: 3px solid white;
+    font-family: 'Scope One', serif;
+}
+
+#range,#date {
+    margin-left: 5px;
+}
+
+#block-header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(244,244,244,0.1);
+    box-sizing: border-box;
+}
+
+#user-details {
+    height: 100px;
+    width: 300px ;
+    float: left;
+}
+
+#avatar {
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+    height: 70px;
+    border-radius: 50%;
+    
+}
+
+#user-details p{
+    color: white;
+    float: left;
+    margin-top: 35px;
+    margin-left: 10px;
+    font-size: 23px;
+    font-family: "Scope one" ;
+    
+}
+
+#username {
+    margin-left: 7px;
+    font-family: 'Scope one', serif;
+    color: #fc3;
+}
+
+#username:hover {
+    color: white;
+}
+
+#searchBox-container {
+    display: inline-block;
+    float: right;
+    margin-right: 70px;
+    margin-top: 21px;
+}
+
+.input-group {
+    height: 17px;
+    font-size: 17px;
+    padding: 10px;
+    padding-left: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 0;
+    color: black;
+    font-family: 'Scope one', serif;
+}
+
+#searchBox {
+    width: 400px; 
+}
+
+#search-btn {
+    height: 17px;
+    font-size: 20px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+    background-color: #fc5;
+}
+
+#search-btn i, #add-task i {
+    color: black;
+}
+
+#search-btn:hover, #add-task:hover{
+    cursor: pointer;
+    background-color: #fc3;
+}
+
+#todo-title {
+    display: inline-block;
+    margin-left: 0px;
+    font-size: 25px;
+    color: white;
+}
+
+#todo-list-container {
+    margin-left: 40px;
+    
+}
+
+
+#weather-container {
+    float: right;
+    display: inline-block;
+    font-size: 23px;
+    background-color: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 70px;
+    color: #ddd;
+    font-family: "Kreon", "serif";
+}
+
+#weather-container p {
+    opacity: 0.9;
+}
+
+#freq-apps {
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+
+#freq-apps ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#freq-apps ul li {
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+}
+
+#freq-apps ul li a {
+    color: white;
+}
+
+.container span {
+    color: black;
+}
+
+
+.container {
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px;
+    color: black;
+    margin-top: 30px;
+    background-color: white;
+}
+
+label[for="todo-entry"], h3 {
+    font-size: 20px;
+    font-family: "Hind Siliguri", monospace;
+    margin-bottom: 5px;
+    display: block;
+    border-bottom: 2px solid black;
+    padding-bottom: 7px;
+    color: black;
+}
+
+input[type="checkbox"] {
+    height: 20px;
+    width: 30px;
+    position: relative;
+    top: 5px;
+}
+
+#todo-entry {
+    width: 280px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    color: black;
+}
+
+#add-task {
+    height: 17px;
+    font-size: 20px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    top: 4px;
+    background-color: #fc5;
+}
+
+h3 {
+  font-size: 20px;  
+}
+
+#todo-heading  {
+    color: red;
+    
+}
+
+#completed-heading {
+    color: green;
+    margin-top: 20px;
+}
+
+#todo-list i {
+    color: black;
+}
+
+#weather-image {
+    width: 100px;
+}
+
+#built-by {
+    position: absolute;
+    top: 40px;
+    left: 1130px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.task {
+    font-family: 'Scope one', serif;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);
+    border-bottom: 5px solid white;
+    line-height: 40px;
+}
+
+.task label {
+   font-weight: bold; 
+}
+
+.task button {
+    float: right;
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 9px;
+    margin-right: 6px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: "Hind Siliguri", "serif";
+    padding: 2px;
+    position: relative;
+    top: -6px;
+    
+}
+
+.task button:hover {
+    cursor: pointer;
+}
+
+.task input {
+    height: 18px;
+    padding: 5px;
+    font-family: "Hind Siliguri", "serif";
+    margin-right: 5px;
+}

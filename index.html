@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="gwuah">
+    <title> KreeBoard</title>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href=".\assets\font-awesome\css\font-awesome.min.css">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Kreon|Hind|Hind+Siliguri|Scope+One" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="body-container">
+
+        <div id="date-time">
+            <p id="curr-time">
+                <span id="hour"></span> : <span id="mins"></span><span id="range"></span>
+            </p>
+            <p id="curr-date">
+                <span id="day"></span>, <span id="month"></span><span id="date"></span> <span id="year"></span>
+            </p>
+        </div>
+        
+        <div id="block-header">
+            <div id="user-details">
+                <section id="avatar-container"><img id="avatar" src="./assets/img/6.png"></section>
+                <p>Hi,<span id="username"> Casprine</span>!</p>
+            </div>
+
+            <div id="searchBox-container">
+                <input id="searchBox" type="text" name="search" placeholder="Search the web .." class="input-group">
+                <button id="search-btn"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        
+        <div id="todo-list-container" class="container">
+            <section id="input-box-container">
+                <label for="todo-entry">Enter task below</label>
+                <input type="checkbox" name="" id="immortal">
+                <input id="todo-entry" type="text" name="todo-entry" class="input-group">
+                <button id="add-task"><i class="fa fa-plus"></i></button>
+
+            </section>
+
+            <section id="todo-list">
+                <h3 id="todo-heading">Todo <i class="fa fa-wrench"></i></h3>
+                <ul id="incomplete-Tasks"></ul>
+
+                <h3 id="completed-heading">Completed <i class="fa fa-rocket"></i></h3>
+                <ul id="completed-Tasks"></ul>
+            </section>
+
+
+        </div>
+
+        <div id="weather-container" class="">
+            <img alt="weather image" id="weather-image" src="">
+            <p>temperature = <span id="degree"></span>&deg;</p>
+            <p>weather = <span id="weather"></span></p>
+            <p>wind-speed = <span id="windSpeed"></span>mph</p>
+        </div>
+        
+        <div id="freq-apps">
+            <ul>
+                <li><a href="https://www.github.com" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.mobile.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.medium.com" target="_blank"><i class="fa fa-medium"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        
+        <div id="built-by">
+            <a href="https://www.kree.xyz" target="_blank"><img src="./assets/img/kree.png"></a></div>
+
+    </div>
+
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>

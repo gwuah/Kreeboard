@@ -11,8 +11,9 @@
 # Installation
  ### Local dev.
  	1. Clone the repo.
- 	2. cd into the project folder.			
-
+ 	2. Open chrome
+ 	3. type chrome://extensions/ in the url bar.
+ 		 			
 
 
 # Credit 

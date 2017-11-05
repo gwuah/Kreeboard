@@ -1,7 +1,11 @@
-<img src="./assets/img/kree.png" alt="Logo" align="middle">
+<h1 align="center">
+	<img width="400" src="https://cdn.rawgit.com/KreeCorp/Kreeboard/3ba7da60/assets/img/kree.png" alt="Kreeboard">
+	<br>
+	<br>
+</h1>
 
-<span style="text-align: center;">   # Kreeboard 
-:zap: Chrome Extension (dashboard) </span>
+# Kreeboard 
+:zap: Chrome Extension (dashboard) 
 <hr>
  Kreeboard is minimial google chrome extension in the form of a dashboard which comes with a todo-list app, wheather-app, google seacher and references to popular social media site.
 

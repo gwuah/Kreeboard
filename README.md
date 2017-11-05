@@ -5,7 +5,11 @@
 
 #Libs & APIs.
  	:gem: <a href="https://github.com/gwuah/axel"> Axel </a> -- Mini js lib for manipulation localstorage.
+
+ 	
  	:gem: <a href="https://openweathermap.org"> OpenWeather</a> -- Api for weather data.
 
 #Credit.
+
+
 <a href="https://github.com/gwuah/"> Griffith Awuah</a> 	

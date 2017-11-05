@@ -4,10 +4,8 @@
 	<br>
 </h1>
 
-<p align="center">
-  <h2> Kreeboard :sunglasses: <br></h2>
-	   :zap: Chrome Dashboard  
- 	</p>
+  <h2 align="center"> Kreeboard :sunglasses: </h2>
+
 <hr>
 
  Kreeboard is minimial google chrome extension in the form of a dashboard which comes with a todo-list app, wheather-app, google seacher and references to popular social media site.
@@ -29,11 +27,11 @@
 
  ### Chrome Store
 
-<a href=""> Click here to install from chrome store :relieved: </a>	 
+<a href=""> Click here to install from chrome store :wink: </a>	 
 
 # Contribution :nerd_face:
- 
- All contributions are welcomed through pull requests. 
+
+ All contributions are welcomed through pull requests.
 
 
 # Credit :pray:

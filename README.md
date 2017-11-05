@@ -16,10 +16,17 @@
  	4. Locate and click on Load unpacked extension.
  	5. Locate and select the clone repo.
 
-:blush: Enjoy 	 
+:blush: Enjoy
+
+ ### Chrome Store
+
+<a href=""> Click here to install from chrome store :relieved: </a>	 
+
+# Contribution :nerd_face:
+ 
+ All contributions are welcomed through pull requests 
 
 
-
-# Credit 
+# Credit :pray:
 
 <a href="https://github.com/gwuah/"> Griffith Awuah</a> 	

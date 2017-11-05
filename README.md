@@ -8,7 +8,12 @@
 
 :gem: <a href="https://openweathermap.org"> OpenWeather</a> -- Api for weather data.
 
-# Credit 
+# Installation
+		
+		# Local Development
+		
 
+
+# Credit 
 
 <a href="https://github.com/gwuah/"> Griffith Awuah</a> 	

@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img width="64" height="64" src="https://cdn.rawgit.com/KreeCorp/Kreeboard/3ba7da60/assets/img/kree.png" alt="Kreeboard">
+	<img width="120" height="120" src="https://cdn.rawgit.com/KreeCorp/Kreeboard/3ba7da60/assets/img/kree.png" alt="Kreeboard">
 	<br>
 	<br>
 </h1>

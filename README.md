@@ -1,13 +1,15 @@
 <h1 align="center">
 	<img width="64" height="64" src="https://cdn.rawgit.com/KreeCorp/Kreeboard/3ba7da60/assets/img/kree.png" alt="Kreeboard">
-			<h1>KreeBoard :sunglasses:</h1>
 	<br>
 	<br>
 </h1>
 
-
-:zap: Chrome Extension (dashboard) 
+<p align="center">
+  <h2> Kreeboard :sunglasses: <br></h2>
+	   :zap: Chrome Dashboard  
+ 	</p>
 <hr>
+
  Kreeboard is minimial google chrome extension in the form of a dashboard which comes with a todo-list app, wheather-app, google seacher and references to popular social media site.
 
 # Lib & API. :ribbon:

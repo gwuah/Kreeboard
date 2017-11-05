@@ -9,9 +9,10 @@
 :gem: <a href="https://openweathermap.org"> OpenWeather</a> -- Api for weather data.
 
 # Installation
-		
-		# Local Development
-		
+ ### Local dev.
+ 	1. Clone the repo.
+ 	2. cd into the project folder.			
+
 
 
 # Credit 

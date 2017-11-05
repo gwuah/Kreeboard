@@ -11,8 +11,12 @@
 # Installation
  ### Local dev.
  	1. Clone the repo.
- 	2. Open chrome
- 	3. type <a href="chrome://extensions/">chrome://extensions/</a> in the url bar.
+ 	2. Open chrome.
+ 	3. type chrome://extensions/ in the url bar.
+ 	4. Locate and click on Load unpacked extension.
+ 	5. Locate and select the clone repo.
+
+:blush: Enjoy 	 
 
 
 

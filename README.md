@@ -12,8 +12,8 @@
  ### Local dev.
  	1. Clone the repo.
  	2. Open chrome
- 	3. type chrome://extensions/ in the url bar.
- 		 			
+ 	3. type <a href="chrome://extensions/">chrome://extensions/</a> in the url bar.
+
 
 
 # Credit 

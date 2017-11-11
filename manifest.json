@@ -5,7 +5,7 @@
       "scripts": [ "background.js" ]
    },
    "browser_action": {
-      "default_icon": "assets/img/favicon.png",
+      "default_icon": "assets/img/kree.png",
       "default_title": "KreeBoard"
    },
    "chrome_url_overrides": {
@@ -14,8 +14,8 @@
    "description": "A minimal browser dashboard!",
    "homepage_url": "https://kree.xyz",
    "icons": {
-      "128": "./assets/img/kree128.png",
-      "48": "./assets/img/kree48.png"
+      "128": "./assets/img/kree.png",
+      "48": "./assets/img/kree.png"
    },
    "manifest_version": 2,
    "name": "KreeBoard", 

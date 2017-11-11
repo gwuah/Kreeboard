@@ -6,9 +6,7 @@
 
   <h2 align="center"> Kreeboard :sunglasses: </h2>
 
-<hr>
-
- Kreeboard is minimial google chrome extension in the form of a dashboard which comes with a todo-list app, wheather-app, google seacher and references to popular social media site.
+ Kreeboard is minimial google chrome extension in the form of a dashboard which comes with a todo-list app, wheather-app, google seacher and references to popular social media sites.
 
 # Lib & API. :ribbon:
 :gem: <a href="https://github.com/gwuah/axel"> Axel </a> -- Mini js lib for manipulation localstorage.

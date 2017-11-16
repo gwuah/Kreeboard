@@ -35,8 +35,8 @@ font-family: 'Raleway', sans-serif;
 
 #curr-date {
     display: inline-block;
-    border-bottom: 3px solid white;
-font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid white;
+    font-family: 'Raleway', sans-serif;
 }
 
 #range,#date {
@@ -120,8 +120,6 @@ font-family: 'Raleway', sans-serif;
     position: relative;
     top: 4px;
     background-color: teal;
-}
-     
 }
 
 #search-btn i, #add-task i {

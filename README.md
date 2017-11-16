@@ -25,7 +25,7 @@
 
  ### Chrome Store
 
-<a href=""> Click here to install from chrome store :wink: </a>	 
+Well we are still packaging it for the store :sunglasses:
 
 # Contribution :nerd_face:
 

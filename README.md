@@ -25,7 +25,7 @@
 
  ### Chrome Store
 
-Well we are still packaging it for the store :sunglasses:
+Well.... we are still packaging it for the store :sunglasses:
 
 # Contribution :nerd_face:
 

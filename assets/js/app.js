@@ -74,7 +74,7 @@
 
 {
     // logic behind the weather widget
-    // Vanilla js
+    // pure js
 
     const city = "Accra";
     const cc = "GH";
@@ -157,7 +157,7 @@
         })
 
         // onclick on save btn, hide the editbox and save button
-        $(task).find('button[clPass="saveChanges"]').click( function() {
+        $(task).find('button[class="saveChanges"]').click( function() {
             saveFunc($(this))
         });
     }
@@ -182,7 +182,6 @@
 
     restoreData();
 
-    // Clock
 
     const parseDateTime = function() {
         const dt = /(\w{3}) (\w{3}) (\d{2}) (\d{4}) (\d{2}):(\d{2})/.exec((new Date()));
@@ -303,8 +302,8 @@
         let markup = `<input id="immortality" type="checkbox">
         <label for="taskName">${name}</label><input type="text" class="editBox"> @
         <span>${dt.day} ${dt.month} ${dt.date}, ${dt.year}</span>
-        <button class="edit"><i class="ion ion-edit"></i></button>
-        <button class="saveChanges">Save <i class="ion ion-thumbsup"></i></button>
+        <button class="edit"><i class="fa fa-edit"></i></button>
+        <button class="saveChanges">Save <i class="fa fa-thumbs-up"></i></button>
         <button class="delete"><i class="fa fa-trash-o"></i></button>`;
         $(task).attr("data-id", taskCount);
         $(task).html(markup);

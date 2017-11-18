@@ -85,4 +85,28 @@
     <script type="text/javascript" src="assets/js/jquery.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
 
+<<<<<<< HEAD
+=======
+    <script>
+        // Name storage functionality built by @rjforty using vanilla localStorage
+        const userBox = document.getElementById('userBox');
+        nameStorage = window.localStorage;
+
+
+        //Fetching userName from localStorage and updating HTML accordingly
+        const currentUserName = nameStorage.getItem('userName');
+        userBox.innerHTML = currentUserName;
+
+        // Function to update userName
+        const updateName = function(){
+            const newUserName = prompt('Input your username');
+            nameStorage.setItem('userName', newUserName);
+
+            //Updating the HTML again, we want to avoid reloading the page before userName is updated
+            userBox.innerHTML = newUserName;
+        }
+    </script>
+</body>
+
+>>>>>>> 26cb1b9fb3107bea4174a37d7030c1180ca49576
 </html>

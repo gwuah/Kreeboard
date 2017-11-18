@@ -390,6 +390,9 @@
 
         //Updating the HTML again, we want to avoid reloading the page before userName is updated
         $("#userBox").text(newUserName);
+        
+        $("#updateName").remove()
+
     })
 
 

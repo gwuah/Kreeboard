@@ -15,9 +15,15 @@
         if (this.storage[this.name]) {
             this.db = JSON.parse(this.storage.getItem(this.name))
         } else {
-            this.storage.setItem(this.name, JSON.stringify({ tasks: [], taskCount: 0 }))
+            this.storage.setItem(this.name, JSON.stringify({ tasks: [], taskCount: 0, userName: "New User" }))
             this.db = JSON.parse(this.storage.getItem(this.name))
         }   
+    }
+
+    Storage.prototype.updateUsername = function(newName) {
+        this.db.userName = newName;
+        console.log("changing username in db")
+        this.update()
     }
 
     Storage.prototype.add = function(value) {
@@ -129,8 +135,8 @@
     let searchBtn = false;
     let ENTER_KEY = 13;
 
-    /* helper functions */
 
+    /* helper functions */
     const bindEvents = function(task) {
         /* bind various event listeners to task components */
         $(task).find('button[class="delete"]').click(function(){
@@ -371,6 +377,19 @@
 
     $("#search-btn").click(e=> {
         extSearch()
+    })
+
+    // set the name of the user using data from our db; defaults to {{ new User}}
+    $("#userBox").text(db.db.userName)
+
+
+     // Name storage functionality built by @rjforty using vanilla localStorage
+    $("#updateName").on("click", e=> {
+        const newUserName = prompt('Input your username');
+        db.updateUsername(newUserName);
+
+        //Updating the HTML again, we want to avoid reloading the page before userName is updated
+        $("#userBox").text(newUserName);
     })
 
 
